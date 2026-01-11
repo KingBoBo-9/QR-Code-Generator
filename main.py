@@ -25,8 +25,8 @@ def save_qr_code(image, file_name):
 
 def main():
     user_input, back_color, fill_color, file_name = get_user_choices()
-    generated_image = generate_QR_code(user_input, back_color, fill_color)
-    save_QR_code(generated_image, file_name)
+    generated_image = generate_qr_code(user_input, back_color, fill_color)
+    save_qr_code(generated_image, file_name)
 
 if __name__ == "__main__":
     main()
